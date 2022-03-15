@@ -417,7 +417,7 @@ importers:
       node-emoji: ^1.10.0
       remark-emoji: ^3.0.1
       tslib: ^2.3.1
-      twemoji: ^13.1.0
+      twemoji: ^14.0.0
       unist-util-visit: ^4.0.0
     dependencies:
       '@joeattardi/emoji-button': 4.6.2
@@ -428,7 +428,7 @@ importers:
       node-emoji: 1.11.0
       remark-emoji: 3.0.2
       tslib: 2.3.1
-      twemoji: 13.1.0
+      twemoji: 14.0.1
       unist-util-visit: 4.0.0
     devDependencies:
       '@milkdown/core': link:../core
@@ -10618,12 +10618,25 @@ packages:
     resolution: {integrity: sha512-AQOzLJpYlpWMy8n+0ATyKKZzWlZBJN+G0C+5lhX7Ftc2PeEVdUU/7ns2Pn2vVje26AIZ/OHwFoUbdv6YYD/wGg==}
     dev: false
 
+  /twemoji-parser/14.0.0:
+    resolution: {integrity: sha512-9DUOTGLOWs0pFWnh1p6NF+C3CkQ96PWmEFwhOVmT3WbecRC+68AIqpsnJXygfkFcp4aXbOp8Dwbhh/HQgvoRxA==}
+    dev: false
+
   /twemoji/13.1.0:
     resolution: {integrity: sha512-e3fZRl2S9UQQdBFLYXtTBT6o4vidJMnpWUAhJA+yLGR+kaUTZAt3PixC0cGvvxWSuq2MSz/o0rJraOXrWw/4Ew==}
     dependencies:
       fs-extra: 8.1.0
       jsonfile: 5.0.0
       twemoji-parser: 13.1.0
+      universalify: 0.1.2
+    dev: false
+
+  /twemoji/14.0.1:
+    resolution: {integrity: sha512-eoqhea0sUhmC10iTacksyp1v9O4BP1jKmVqtK+Nztw40/dzawSHkXL3/xCpyh+mukmEvJ0Gw9VLvwZfQ9HKXDw==}
+    dependencies:
+      fs-extra: 8.1.0
+      jsonfile: 5.0.0
+      twemoji-parser: 14.0.0
       universalify: 0.1.2
     dev: false
 
